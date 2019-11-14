@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    color:rgba(15, 14, 14, 0.856);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-nav {
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.nav li {
+    padding: 0 5%;
+}
+.mainHeader {
+    background-image: url("annie-spratt-upJFoyr7BBA-unsplash.jpg");
+    background-blend-mode: multiply;
+
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.body {
+    text-align: center;
+    margin: 0;
+    font-size:4em;
+    font-family: "Booter - zero zero";
+}
+#h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    color: white;
+}
+.lowerb {
+    margin: left;
+    background-image: url("annie-spratt-hCzHhu1v0fA-unsplash.jpg");
+    background-repeat: no-repeat;
+}
